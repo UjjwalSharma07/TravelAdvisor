@@ -1,0 +1,55 @@
+.list{
+    margin: 0px 20px 0px 20px;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+
+    .places{
+        
+        background-color: #fff;
+        color: black;
+       
+        h2{
+            font-weight: 500;
+        }
+        .filter{
+
+            display: flex;
+            gap: 30px;
+            .type{
+                display: flex;
+                flex-direction: column;
+                span{
+                    font-weight: 400;
+                    font-size: 13px;
+                    margin-bottom: 10px;
+                }
+                .select{
+                    display: flex;
+                    gap: 20px;
+                    
+                    select{
+                        padding: 5px;
+                        border: none;
+                        -webkit-box-shadow: -1px 6px 5px 0px rgba(230,225,230,1);
+                        -moz-box-shadow: -1px 6px 5px 0px rgba(230,225,230,1);
+                        box-shadow: -1px 6px 5px 0px rgba(230,225,230,1);
+                        outline: none;
+        
+                        &option{
+                            color: red;
+                            // border: none;
+                            // -webkit-box-shadow: -1px 6px 5px 0px rgba(230,225,230,1);
+                            // -moz-box-shadow: -1px 6px 5px 0px rgba(230,225,230,1);
+                            // box-shadow: -1px 6px 5px 0px rgba(230,225,230,1);
+                            // outline: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+   
+   
+    
+}

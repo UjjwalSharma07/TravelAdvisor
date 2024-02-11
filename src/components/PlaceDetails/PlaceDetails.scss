@@ -1,0 +1,70 @@
+.placeDetails{
+    // border: 1px solid black;
+    
+    .card{
+        -webkit-box-shadow: -1px 1px 20px 1px rgba(189,178,189,1);
+-moz-box-shadow: -1px 1px 20px 1px rgba(189,178,189,1);
+box-shadow: -1px 1px 20px 1px rgba(189,178,189,1);
+        margin: 20px 0px 20px 0px;
+        overflow: hidden;
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+        img{
+           
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+        h2{
+            margin:  15px 15px 0px 15px;
+            font-size: 25px;
+            font-weight: 500;
+        }
+        .deatils{
+            margin: 15px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            .row{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                gap: 10px;
+                font-size: 15px;
+                span{
+                    font-size: 15px;
+                    color: gray;
+                }
+            }
+            .large{
+                span{
+                    font-size: 16px;
+                    color: black;
+                }
+            }
+            .tag{
+                span{
+                    border-radius: 15px;
+                    background-color: rgba(160, 151, 151, 0.523);
+                    color: #363535;
+                    // border: 1px solid black;
+                    padding: 5px 10px 5px 10px;
+                    font-size: small;
+                    font-weight: 500;
+                }
+            }
+            .address{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                
+                span{
+                    color: gray;
+                    font-size: 13px;
+                }
+                font-size: 13px;
+            }
+        }
+    }
+}

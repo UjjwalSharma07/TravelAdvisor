@@ -1,0 +1,23 @@
+.map{
+
+    .load{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+       
+        font-size: large;
+        font-weight: bold;
+
+    }
+    .info-window{
+      width: 200px;
+      img{   
+        height: 100px;
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+}
